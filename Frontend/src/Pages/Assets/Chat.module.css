@@ -1,0 +1,38 @@
+.Container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+  /* background-color: #131324; */
+  /* background-image: linear-gradient(to right top, #000000, #202020, #3a3a3a, #555555, #737373); */
+  /* background-image: linear-gradient(to right top, #ffffff, #e8e8e8, #d2d2d2, #bcbcbc, #a6a6a6); */
+  /* background-image: url("../../Components/Assets/background\ image.jpeg"); */
+  /* padding: 4em; */
+    box-shadow: 2px 3px 20px black, 0 0 60px #8a4d0f inset;
+    background: #fffef0;
+  opacity: 0.9;
+}
+
+.container_inner{
+    height: 100vh;
+    width: 100vw;
+    /* background-color: #00000076; */
+    display: grid;
+    /* background-image: linear-gradient(to right top, #000000, #202020, #3a3a3a, #555555, #737373); */
+    /* background-image: linear-gradient(to right top, #ffffff, #e8e8e8, #d2d2d2, #bcbcbc, #a6a6a6); */
+    /* background-image: url("../../Components/Assets/background\ image.jpeg"); */
+    /* padding: 4em; */
+    box-shadow: 2px 3px 20px black, 0 0 60px #8a4d0f inset;
+    background: #fffef0;
+    grid-template-columns: 25% 75%;
+    
+}
+
+@media screen and (min-width: 720px) and (max-width: 1080px) {
+    .container_inner{
+        grid-template-columns: 35% 65%;
+    }
+  }
