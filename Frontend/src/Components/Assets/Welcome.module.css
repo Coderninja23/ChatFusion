@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+}
+
+.container img{
+    height: 20rem;
+}
+
+.container span{
+    color: white;
+}
