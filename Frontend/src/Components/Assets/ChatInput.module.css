@@ -1,0 +1,194 @@
+.Container {
+  display: inherit;
+  align-items: center;
+  /* margin-bottom: -10%; */
+  /* grid-template-columns: 5% 95%; */
+  /* background-color: #080420; */
+  padding: 0 1rem;
+  gap: 1rem;
+  width: auto;
+  margin: 10px;
+  justify-content: space-around;
+}
+
+.innerContainer {
+  width: auto;
+}
+
+/* display: inherit;
+    align-items: center;
+    margin-bottom: -10%;
+    grid-template-columns: 5% 95%;
+    /* background-color: #080420; */
+/* padding: 0 1rem; */
+/* gap: 1rem;  
+
+@media screen and (min-width: 360px) and (max-width: 1080px) {
+  .Container {
+    display: grid;
+    /* margin-bottom: 5%; 
+    padding: 0 1rem;
+    gap: 1rem;
+  }
+}
+*/
+
+.buttonContainer {
+  display: flex;
+  position: relative;
+  align-items: center;
+  color: white;
+  gap: 1rem;
+  margin-left: 10px;
+  /* left: 400px; */
+  /* margin-left: 10%; */
+}
+
+@media screen and (max-width: 1200px) {
+  .emojiButtonInput {
+    pointer-events: none;
+    opacity: 0.4;
+  }
+  .toolText .toolTipText {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+  }
+
+  .toolText:hover .toolTipText   {
+    visibility: hidden;
+  }
+}
+
+.formInputHandler {
+  font: 400;
+}
+
+.emojiSelector {
+  position: relative;
+  /* top: -300px; */
+  /* top: -20rem; */
+  text-align: right;
+}
+.emoji {
+  position: absolute;
+  top: 345px;
+  left: 500px;
+}
+/* .emojiOpen { */
+/* position: absolute; */
+/* top: -300px; */
+/* top: -20rem; */
+/* text-align: right; */
+/* } */
+
+.emojiSelector svg {
+  font-size: 1.5rem;
+  color: #ffff00c8;
+  cursor: pointer;
+}
+
+.emoji-picker-react {
+  position: relative;
+
+  box-shadow: 0 5px 10px #9a86f3;
+  border-color: #9a86f3;
+}
+
+.emoji-scroll-wrapper::-webkit-scrollbar {
+  /* background-color: #080420; */
+  width: 5px;
+}
+
+.emojiDropdown {
+  text-align: right;
+  margin-right: 2%;
+  margin-top: 1%;
+}
+
+.emoji-scroll-wrapper::-webkit-scrollbar-thumb {
+  /* background-color: #9a86f3; */
+}
+
+.emoji-categories button {
+  filter: contrast(0);
+}
+
+.emoji-search {
+  background-color: transparent;
+  border-color: #9a86f3;
+}
+
+.emoji-group:before {
+  /* background-color: #080420; */
+}
+
+.input-container {
+  width: 100%;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  /* background-color: #ffffff34; */
+}
+.input-container input {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  color: white;
+  border: none;
+  padding-left: 1rem;
+  font-size: 1.2rem;
+}
+
+.input-container input::selection {
+  /* background-color: #9a86f3; */
+}
+
+.input-container input:focus {
+  outline: none;
+}
+
+.input-container button {
+  padding: 0.3rem 2rem;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #9a86f3; */
+  border: none;
+}
+
+@media screen and (min-width: 720px) and (max-width: 1080px) {
+  .Container {
+    display: inherit;
+    align-items: center;
+    padding: 0 1rem;
+    gap: 1rem;
+    width: 100%;
+  }
+}
+
+.formInput {
+  /* width: 80%; */
+  text-align: center;
+  align-items: center;
+  margin-top: 60px;
+  margin-left: 2%;
+  margin-right: 5%;
+  padding: 10px;
+  font-weight: bold;
+  justify-content: center;
+  font-size: 30px;
+}

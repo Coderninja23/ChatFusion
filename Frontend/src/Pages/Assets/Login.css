@@ -1,0 +1,92 @@
+.formContainer {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+  background-image: url(https://images.unsplash.com/photo-1568952433726-3896e3881c65?auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&w=2070);
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.brand img {
+  height: 5rem;
+}
+
+.brand h1 {
+  color: black;
+  text-transform: uppercase;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  background-color: #c6bdb3;
+  border-radius: 2rem;
+  padding: 2rem;
+  box-shadow: 0 0 10px rgb(30, 27, 27);
+}
+
+input {
+  background-color: transparent;
+  padding: 1rem;
+  border: 0.1rem solid #28272a;
+  border-radius: 0.4rem;
+    font-weight: 600;
+  width: 80%;
+  font-size: 1rem;
+  margin-right: 10px;
+}
+
+input:focus {
+  border: 0.1rem solid #402786;
+  outline: none;
+  box-shadow: 0px 0px 10px rgb(62, 62, 194);
+}
+
+input:hover {
+  border: 0.1rem solid #58468a;
+  outline: none;
+  box-shadow: 0px 0px 10px rgb(137, 137, 159);
+}
+
+button {
+  background-color: #4e0eff;
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 0.4rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background-color: #7557c9;
+}
+
+span {
+  color: black;
+  text-transform: uppercase;
+}
+
+span a {
+  color: #4e0eff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+span a:hover {
+  color: #7557c9;
+  text-decoration: none;
+  font-weight: bold;
+}
