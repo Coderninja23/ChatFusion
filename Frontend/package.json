@@ -10,7 +10,6 @@
     "bootstrap": "^5.3.2",
     "buffer": "^6.0.3",
     "emoji-picker-react": "^4.5.6",
-    "proxy": "https://chatfusion-nwx2.onrender.com",
     "react": "^18.2.0",
     "react-bootstrap": "^2.10.0",
     "react-dom": "^18.2.0",
