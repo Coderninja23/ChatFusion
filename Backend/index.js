@@ -10,6 +10,10 @@ require("dotenv").config();
 app.use(cors());
 app.use(express.json());
 
+const path = require("path");
+
+app.use(express.static(path.join(__dirname, "build")));
+
 mongoose
   .connect(process.env.MONGO_URL, {
     useNewUrlParser: true,
